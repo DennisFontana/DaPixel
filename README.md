@@ -1,2 +1,2 @@
 # DaPixel
-styding project
+education project
