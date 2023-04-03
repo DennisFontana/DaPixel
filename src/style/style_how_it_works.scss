@@ -1,0 +1,101 @@
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+
+  .how-it-works-wrapper {
+    h2 {
+      font-family: "Product Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 137.2%;
+      text-align: center;
+      padding-bottom: 20px;
+      margin: 40px 0;
+    }
+    .card-group {
+      .odd:nth-child(odd) {
+        position: relative;
+        margin-right: auto;
+        .odd-num:nth-child(odd) {
+          position: absolute;
+          top: -50px;
+          left: -32px;
+        }
+      }
+
+      .even:nth-child(even) {
+        position: relative;
+        margin-left: auto;
+        .even-num:nth-child(odd) {
+          position: absolute;
+          top: -50px;
+          right: -20px;
+        }
+      }
+
+      .card-group-item {
+        width: 970px;
+        box-shadow: 0px 69px 114px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        .card-group-number {
+          display: inline-block;
+          font-family: "HK Grotesk";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 124px;
+          line-height: 45.2%;
+          letter-spacing: -0.045em;
+          color: #f9bc6e;
+          opacity: 0.15;
+        }
+
+        .card {
+          .card-wrap {
+            display: flex;
+            align-items: center;
+
+            .pic {
+              width: 242px;
+              height: 271px;
+              margin-left: 50px;
+
+              .img {
+                object-fit: contain;
+                object-position: center;
+                width: 242px;
+                height: 271px;
+              }
+            }
+            .card-text {
+              padding: 0 75px;
+              h3 {
+                font-family: "Product Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 137.2%;
+                color: #f9bc6e;
+                padding-bottom: 20px;
+                border-bottom: solid 2px #f9bc6e;
+                margin-bottom: 10px;
+              }
+
+              .card-description {
+                p {
+                  font-family: "HK Grotesk";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 170.7%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

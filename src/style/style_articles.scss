@@ -1,0 +1,94 @@
+.articles {
+  background-color: #f9bc6e;
+
+  .articles-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 742px;
+    align-items: center;
+
+    .text-content {
+      position: relative;
+      margin: 0 15px;
+      width: 505px;
+      .line {
+        position: absolute;
+        width: 89px;
+        height: 3px;
+        top: -10px;
+        background: linear-gradient(
+          90deg,
+          #ffffff 0%,
+          rgba(255, 255, 255, 0.31) 123.02%
+        );
+        border-radius: 1000px;
+      }
+
+      p {
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 128.3%;
+        color: #ffffff;
+      }
+    }
+    .articles-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 544px;
+      height: 452.21px;
+      padding: 0 30px;
+      background: #dfa762;
+      box-shadow: 0px 69px 114px rgba(124, 20, 253, 0.08);
+      border-radius: 30px;
+      margin: 0 15px;
+      h3 {
+        font-family: "HK Grotesk";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 58px;
+        letter-spacing: -1px;
+        color: #ffffff;
+      }
+
+      .description {
+        margin: 30px 0;
+        p {
+          font-family: "HK Grotesk";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 28px;
+          color: #ffffff;
+          mix-blend-mode: normal;
+        }
+      }
+
+      .btn {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 205px;
+        height: 70px;
+        background: #ffffff;
+        border-radius: 20px;
+        .path {
+        }
+        .readmore {
+          font-family: "HK Grotesk";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19px;
+          line-height: 30px;
+          color: #000000;
+          border: none;
+          text-align: left;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
